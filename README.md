@@ -7,7 +7,7 @@ BacioneJS is a mobile-centric JavaScript IDE with a custom, thumb-friendly keybo
 
 ---
 
-<a href="//bacionejs.github.io/battito/battito.html" target="_blank"><img src="https://repository-images.githubusercontent.com/1048415375/877bf460-dc92-4659-a297-9b2153fdf838" width="100%" /></a>
+<a href="//bacionejs.github.io/battito/battito.html" target="_blank"><img src="https://repository-images.githubusercontent.com/1048415375/71dd23ce-bb1e-40e9-9075-d5dc346c47ae" width="100%" /></a>
 
 Battito Beats is a tablet-centric music tracker with piano-roll, live-loop editing and a small Sonant-class engine for size-constrained games
 
