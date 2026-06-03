@@ -1,7 +1,7 @@
 
 ---
 
-<a href="//bacionejs.github.io/editor/bacionejs.html" target="_blank"><img src="https://repository-images.githubusercontent.com/788276995/040a885f-c9e7-431b-bd4f-27a9069971b6" width="100%" /></a>
+<a href="//bacionejs.github.io/editor/bacionejs.html" target="_blank"><img src="https://github.com/user-attachments/assets/1e63dd17-9eac-4b7e-9e8d-2971a22dc2ba" width="100%" /></a>
 
 BacioneJS is a mobile-centric JavaScript IDE with a custom, thumb-friendly keyboard, to give people a **taste** of programming with what they have.  
 
