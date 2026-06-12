@@ -32,8 +32,8 @@ function* color(text){
 function render(){
 let filename = file.split('/').pop();
 
-let github=file.match(/^https:\/\/github\.com\/[^/]+\/[^/]+/)?.[0]||file;
-
+let parts = file.split("/");
+let github = "https://github.com/" + parts[3] + "/" + parts[4];
 element("button","",document.body,{
   textContent:"Github",
   onclick:()=>location.href=github
