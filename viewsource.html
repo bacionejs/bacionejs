@@ -30,10 +30,12 @@ function* color(text){
 }
 
 function render(){
-let filename = file.split('/').pop();
+  let filename = file.split('/').pop();
 
-let parts = file.split("/");
-let github = "https://github.com/" + parts[3] + "/" + parts[4];
+  let u = new URL(file);
+  let parts = u.pathname.split('/'); 
+  let github = `https://github.com/${parts[1]}/${parts[2]}`;
+
 element("button","",document.body,{
   textContent:"Github",
   onclick:()=>location.href=github
