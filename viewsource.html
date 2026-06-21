@@ -36,14 +36,17 @@ function render(){
   let parts = u.pathname.split('/'); 
   let github = `https://github.com/${parts[1]}/${parts[2]}`;
 
+let showGithub = !url.searchParams.has("b");
+let showDownload = url.searchParams.has("b");
+
+if(showGithub){
 element("button","",document.body,{
   textContent:"Github",
   onclick:()=>location.href=github
 });
+}
 
-
-
-
+if(showDownload){
 element("button", "", document.body, {
   textContent: "Download",
   onclick: () => {
@@ -53,6 +56,7 @@ element("button", "", document.body, {
     a.click();
   }
 });
+}
 
 let lines=pretty(raw).split('\n');
 if(lines.length && lines[lines.length-1]==='')lines.pop();
@@ -69,4 +73,3 @@ render();
 }
 
 }</script>
-
